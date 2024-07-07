@@ -1,0 +1,52 @@
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #2271d1;
+    background-color: #262626;
+    width: 1443px;
+    height: 125px;
+    box-shadow: 0px 5px 29px 0px rgba(34, 113, 209, 0.7);
+    gap: 787px;
+}
+
+.logo_header {
+    width: auto;
+    height: 40px;
+}
+
+.hughug {
+    display: flex;
+    gap: 25px;
+}
+
+.boton1 {
+    width: 180px;
+    height: 54px;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+    background-color: inherit;
+    font-family: "Source Sans 3", sans-serif;
+    color: #f5f5f5;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.boton2 {
+    width: 180px;
+    height: 54px;
+    border: 2px solid #2271d1;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-family: "Source Sans 3", sans-serif;
+    color: #2271d1;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 4px #2271d1;
+}
