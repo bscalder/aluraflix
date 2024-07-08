@@ -1,0 +1,7 @@
+.cardedit {
+    width: 430px;
+    height: 59px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

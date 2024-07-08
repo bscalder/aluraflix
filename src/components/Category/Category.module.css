@@ -1,0 +1,13 @@
+.category {
+    width: 432px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 32px;
+    color: #f5f5f5;
+}
