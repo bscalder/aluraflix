@@ -8,7 +8,7 @@ import Modal from "./components/Modal";
 function App() {
   return (
     <div className="App">
-      {/*<Modal />*/}
+      <Modal />
       <Header />
       <Banner />
       <Card category = "FRONT END" bgColor = "#6BD1FF" />

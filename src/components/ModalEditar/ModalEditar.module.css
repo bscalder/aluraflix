@@ -1,0 +1,25 @@
+.modaleditar {
+    color: #2271d1;
+    width:947px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 60px;
+    border: 5px solid #6bd1ff;
+    border-radius: 15px;
+    padding: 84px 0px;
+    margin-top: 85px;
+    margin-left: 250px;
+}
+
+.modaleditar label {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
