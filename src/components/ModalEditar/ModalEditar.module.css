@@ -1,5 +1,6 @@
 .modaleditar {
     color: #2271d1;
+    background-color: #03122f;
     width:947px;
     display:flex;
     flex-direction: column;
@@ -22,4 +23,30 @@
     font-style: normal;
     font-size: 20px;
     color: white;
+}
+
+.modaleditar input[type=text],
+select,
+textarea {
+    width: 573px;
+    height: 62px;
+    background-color: inherit;
+    color: lightgray;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    border: 5px solid #6bd1ff;
+    border-radius: 15px;
+    padding: 15px 15px;
+}
+
+.modaleditar textarea {
+    height: 112px;
+    resize: none;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
 }
