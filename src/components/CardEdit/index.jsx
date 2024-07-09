@@ -11,8 +11,8 @@ const CardEdit = (props) => {
     }
     return (
         <section className={style.cardedit} style={borde}>
-            <div><img src="img/Borrar.png" alt="" /></div>
-            <div><img src="img/Editar.png" alt="" /></div>
+            <div className={style.textoboton}><img src="img/Borrar.png" alt="" />BORRAR</div>
+            <div className={style.textoboton}><img src="img/Editar.png" alt="" />EDITAR</div>
         </section>
     )
 }
