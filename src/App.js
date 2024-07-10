@@ -4,11 +4,15 @@ import Banner from "./components/Banner";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
+import { useState } from "react";
 
 function App() {
+
+  const [muestraModal, cambiaMuestraModal] = useState(true);
+
   return (
     <div className="App">
-      <Modal />
+      {muestraModal && <Modal muestraModal={muestraModal}/>}
       <Header />
       <Banner />
       <Card category = "FRONT END" bgColor = "#6BD1FF" />
