@@ -51,7 +51,7 @@ textarea {
     justify-content: space-between;
 }
 
-.botones input[type=submit] {
+.guardar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +70,7 @@ textarea {
     cursor: pointer;
 }
 
-.botones input[type=reset] {
+.limpiar {
     display: flex;
     align-items: center;
     justify-content: center;

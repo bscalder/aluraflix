@@ -1,0 +1,47 @@
+.nuevovideoform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1172px;
+    gap: 20px;
+}
+
+.texto,
+.selector,
+.areatexto {
+    width: 500px;
+    background-color: inherit;
+    border: 1px solid grey;
+    color: gray;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.areatexto {
+    height: 300px;
+}
+
+.areabotones {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.boton {
+    display: block;
+    margin: auto;
+    width: 180px;
+    height: 54px;
+    background-color: inherit;
+    border: 3px solid white;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.boton:hover {
+    border: 5px solid lightblue;
+    box-shadow: 0px 0px 17px 8px lightblue;
+}

@@ -4,11 +4,11 @@ import CardIn from "../CardIn";
 
 const Card = (props) => {
 
-    const {category, bgColor} = props;
+    const {category, bgColor, cambiaModal} = props;
     return(
         <section className={style.card}>
             <Category category = {category} bgColor = {bgColor}/>
-            <CardIn color = {bgColor}/>
+            <CardIn color = {bgColor} cambiaModal = {cambiaModal}/>
         </section>
     )
 }

@@ -1,0 +1,25 @@
+.nuevovideo {
+    width: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    font-family: 'ROBOTO', sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    padding: 30px 0;
+}
+
+.titulo1 {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.titulo2 {
+    font-weight: 400;
+    font-size: 20px
+}

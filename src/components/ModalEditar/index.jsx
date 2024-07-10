@@ -15,7 +15,7 @@ const ModalEditar = () => {
                 <div><div><label htmlFor="imagen">Imagen</label></div><input type="text" id="imagen" placeholder="algo" required /></div>
                 <div><div><label htmlFor="video">Video</label></div><input type="text" id="video" placeholder="algo" required /></div>
                 <div><div><label htmlFor="descripcion">Descripcion</label></div><textarea name="descripcion" id="descripcion">algo</textarea></div>
-                <div className={style.botones}><input type="submit" value="GUARDAR" /><input type="reset" value="LIMPIAR" /></div>
+                <div className={style.botones}><button className={style.guardar}>GUARDAR</button><button className={style.limpiar}>LIMPIAR</button></div>
             </form>
         </section>
     )

@@ -5,7 +5,7 @@ import CardEdit from "../CardEdit";
 
 const CardIn = (props) => {
 
-    const {color} = props;
+    const {color, cambiaModal} = props;
 
     const borde = `5px solid ${color}`;
     const sombra = `0px 0px 17px 8px ${color}`;
@@ -18,7 +18,7 @@ const CardIn = (props) => {
     return (
         <section className={style.cardin} style={estilo}>
             <CardImg color={color}/>
-            <CardEdit />
+            <CardEdit cambiaModal = {cambiaModal}/>
         </section>
     )
 }
